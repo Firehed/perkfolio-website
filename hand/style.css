@@ -70,9 +70,17 @@ img.logo {
     width: 32px;
   }
 }
+figure.device img {
+  width: 540px;
+  width: 400px;
+}
 
 #hero {
   background: #f6FCFF;
+  p {
+    color: var(--gray);
+    font-size: 1.25em;
+  }
 }
 #features, #value {
   /* background-color: #FBFBFC; */
@@ -97,14 +105,54 @@ ul.cards li {
   border-radius: 4px;
 }
 
-header {
+a.button {
+  background: var(--gradient);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+#screenshots {
+  display: flex;
+  justify-content: center;
+
+  figure.hero {
+    z-index: 1;
+  }
+  figure.leading {
+    transform: rotate(-5deg) scale(90%);
+    margin-inline-end: -7em;
+  }
+  figure.trailing {
+    transform: rotate(5deg) scale(90%);
+    margin-inline-start: -7em;
+  }
+}
+
+
+body > header {
   position: sticky;
   top: 0;
   background-color: rgba(255,255,255,0.6);
   border-bottom: 1px solid rgb(226,232,240);
   backdrop-filter: blur(8px);
+  padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.leading {
+  justify-self: start;
+  display: flex; align-items: center; gap: 0.5em;
+}
+.center {
+  justify-self: center;
+}
+.trailing {
+  justify-self: end;
+}
+.inline {
+  display: flex;
+  gap: 1em;
 }
 
 body > footer {
