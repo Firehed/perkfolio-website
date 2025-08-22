@@ -6,6 +6,9 @@
   --black: #000;
   --white: #FFF;
 }
+:target {
+  scroll-margin-top: 100px;
+}
 * {
   box-sixing: border-box;
   margin: 0;
@@ -58,7 +61,7 @@ section {
 }
 
 .accent {
-  background: var(--gradient);
+  background-image: var(--gradient);
   background-clip: text;
   color: transparent;
 }
@@ -77,13 +80,14 @@ figure.device img {
 
 #hero {
   background: #f6FCFF;
+  background: #cbe1f3;
+  padding-block: 3em;
   p {
     color: var(--gray);
     font-size: 1.25em;
   }
 }
-#features, #value {
-  /* background-color: #FBFBFC; */
+main > section:nth-child(even) {
    background-color: var(--bg-offwhite);
 }
 #cta {
@@ -139,6 +143,7 @@ body > header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  z-index: 2;
 }
 .leading {
   justify-self: start;
@@ -155,6 +160,15 @@ body > header {
   gap: 1em;
 }
 
+/*
+body > main  > section {
+  > * {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    max-width: 50em;
+  }
+}
+*/
 body > footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
