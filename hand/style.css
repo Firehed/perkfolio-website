@@ -6,6 +6,7 @@
   --bg-offwhite: #FBFBFC;
   --bg-offwhite: #f4f4f6;
   --black: #000;
+  --black: rgb(2,8,23);
   --white: #FFF;
 
   --3-col: 1fr 1fr 1fr;
@@ -54,7 +55,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
-a, p {
+main p {
+  margin-inline: 1em;
   /* needs more specificity */
   /* color: var(--gray); */
 }
@@ -91,9 +93,14 @@ section {
   color: transparent;
 }
 
+#homelogo {
+    font-weight: 700;
+    font-size: 1.25em;
+}
 img.logo {
   width: 64px;
   border-radius: 20%;
+  vertical-align: middle;
   &.small {
     width: 32px;
   }
@@ -178,7 +185,7 @@ body > header {
   backdrop-filter: blur(8px);
   padding: 1em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   /* grid-template-columns: var(--3-col); */
   align-items: center;
   z-index: 2;
