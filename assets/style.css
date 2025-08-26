@@ -91,6 +91,16 @@ section {
   background-image: var(--gradient);
   background-clip: text;
   color: transparent;
+  &.security {
+    background-image: linear-gradient(45deg, #11998e, #38ef7d);
+  }
+}
+
+.app-store-badge {
+  width: 245px;
+  height: 82px;
+  vertical-align: middle;
+  object-fit: contain;
 }
 
 #homelogo {
