@@ -3,8 +3,10 @@ directories:
   assets: assets
   passthrough: null
   output: .build
-default_template: article
-internal_hosts_regex: "/(^|\\.)perkfolioapp\\.com$/"
+defaults:
+  template: article
+internal_hosts:
+  - '/(^|\.)perkfolioapp\.com$/'
 process_assets: []
 default_variables:
   '*':
@@ -16,3 +18,5 @@ required_variables:
   page:
     - html
 
+ignore_files:
+  - .DS_Store
