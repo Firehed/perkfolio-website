@@ -1,0 +1,22 @@
+{
+    "name": "firehed/perkfolio-website",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eric Stern",
+            "email": "eric@ericstern.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../snapauth/ssg",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "snapauth/ssg": "dev-main"
+    }
+}

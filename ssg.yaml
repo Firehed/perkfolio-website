@@ -1,0 +1,18 @@
+directories:
+  pages: pages
+  assets: assets
+  passthrough: null
+  output: .build
+default_template: article
+internal_hosts_regex: "/(^|\\.)perkfolioapp\\.com$/"
+process_assets: []
+default_variables:
+  '*':
+    css:
+      - assets/style.css
+required_variables:
+  '*':
+    - title
+  page:
+    - html
+
