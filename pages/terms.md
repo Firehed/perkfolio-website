@@ -3,7 +3,7 @@ title: Terms of Service
 ---
 # Terms of Service<
 
-By using this app, you agree to the following terms:<
+By using this app, you agree to the following terms:
 
 - This app helps you manage your personal travel-related data across your devices.
 - All features are unlocked with an active subscription. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.
