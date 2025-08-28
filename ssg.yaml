@@ -1,4 +1,11 @@
+container:
+  image_name: perkfolio-website
+
 default_template: article
+
+directories:
+  passthrough: passthrough
+
 hostname: https://www.perkfolioapp.com
 
 internal_hosts:
@@ -14,6 +21,3 @@ vars:
       - title
     page:
       - html
-
-container:
-  image_name: perkfolio-website
