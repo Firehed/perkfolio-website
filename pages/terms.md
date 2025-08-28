@@ -1,7 +1,7 @@
 ---
 title: Terms of Service
 ---
-# Terms of Service<
+# Terms of Service
 
 By using this app, you agree to the following terms:
 
