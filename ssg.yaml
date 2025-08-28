@@ -1,5 +1,5 @@
 container:
-  image_name: perkfolio-website
+  image_name: ghcr.io/firehed/perkfolio-website
 
 default_template: article
 
