@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d12b4efcfae49f27f393b6bc29c2f53",
+    "content-hash": "b641332d4654379c42dd04f516aa74e1",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -146,6 +146,72 @@
                 "source": "https://github.com/Firehed/container/tree/0.9.1"
             },
             "time": "2024-08-22T20:43:36+00:00"
+        },
+        {
+            "name": "firehed/simplelogger",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Firehed/simpleLogger.git",
+                "reference": "8586da073b50675c9d97c517b10ad61465152611"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Firehed/simpleLogger/zipball/8586da073b50675c9d97c517b10ad61465152611",
+                "reference": "8586da073b50675c9d97c517b10ad61465152611",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "psr/log": "^2.0 || ^3.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": ">=8.5 <=8.5.20"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "firehed/clock": "^1.0",
+                "phpstan/phpstan": "^1.12",
+                "phpstan/phpstan-phpunit": "^1.4",
+                "phpunit/phpunit": "^10 || ^11",
+                "psr/clock": "^1.0",
+                "squizlabs/php_codesniffer": "^3.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firehed\\SimpleLogger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Stern"
+                }
+            ],
+            "description": "Logger compatible with PSR-3. Supports writing to files, STDOUT, STDERR, and syslog. Also provides a chain logger which can write to multiple destinations. Allows customizable and pluggable formats, including logfmt.",
+            "homepage": "https://github.com/firehed/simpleLogger",
+            "keywords": [
+                "log",
+                "logfmt",
+                "logger",
+                "logging",
+                "logs",
+                "psr-3",
+                "stderr",
+                "stdout",
+                "syslog"
+            ],
+            "support": {
+                "issues": "https://github.com/Firehed/simpleLogger/issues",
+                "source": "https://github.com/Firehed/simpleLogger/tree/3.0.0"
+            },
+            "time": "2024-09-16T23:35:10+00:00"
         },
         {
             "name": "league/commonmark",
@@ -700,15 +766,24 @@
         },
         {
             "name": "snapauth/ssg",
-            "version": "dev-main",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:snapauthapp/ssg.git",
+                "reference": "1ca98fad519ba43326d9e38426bb61447f55b481"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../snapauth/ssg",
-                "reference": "9c4c3c00ca5eaeeb0b884e6796fd81a9cd9a4cab"
+                "type": "zip",
+                "url": "https://api.github.com/repos/snapauthapp/ssg/zipball/1ca98fad519ba43326d9e38426bb61447f55b481",
+                "reference": "1ca98fad519ba43326d9e38426bb61447f55b481",
+                "shasum": ""
             },
             "require": {
+                "ext-yaml": "*",
                 "firehed/container": "^0.9.1",
+                "firehed/simplelogger": "^3.0",
                 "league/commonmark": "^2.7",
+                "psr/log": "^3.0",
                 "symfony/console": "^7.3",
                 "symfony/process": "^7.3"
             },
@@ -735,10 +810,11 @@
                     "email": "eric@snapauth.app"
                 }
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/snapauthapp/ssg/tree/0.1.0",
+                "issues": "https://github.com/snapauthapp/ssg/issues"
+            },
+            "time": "2025-08-28T23:18:18+00:00"
         },
         {
             "name": "symfony/console",
@@ -1563,9 +1639,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "snapauth/ssg": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

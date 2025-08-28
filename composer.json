@@ -9,14 +9,11 @@
     ],
     "repositories": [
         {
-            "type": "path",
-            "url": "../../snapauth/ssg",
-            "options": {
-                "symlink": true
-            }
+            "type": "vcs",
+            "url": "git@github.com:snapauthapp/ssg"
         }
     ],
     "require": {
-        "snapauth/ssg": "dev-main"
+        "snapauth/ssg": "^0.1"
     }
 }
