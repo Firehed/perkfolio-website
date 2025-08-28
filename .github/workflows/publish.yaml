@@ -9,6 +9,8 @@ on:
 jobs:
   # Build job
   build:
+    environment:
+      name: github-pages
     # Specify runner +  build & upload the static files as an artifact
     runs-on: ubuntu-latest
     steps:
@@ -20,9 +22,10 @@ jobs:
         with:
           php-version: '8.4'
           extensions: yaml
+          github-token: ${{ secrets.PRIVATE_REPO_TOKEN }}
 
-      - name: Auth composer for private packages
-        run: composer config --global github-oauth.github.com ${{ secrets.PRIVATE_REPO_TOKEN }}
+      # - name: Auth composer for private packages
+      #   run: composer config --global github-oauth.github.com ${{ secrets.PRIVATE_REPO_TOKEN }}
       # TODO: cache this
       - name: Install dependencies
         run: composer install --prefer-dist
