@@ -1,22 +1,19 @@
-directories:
-  pages: pages
-  assets: assets
-  passthrough: null
-  output: .build
-defaults:
-  template: article
+default_template: article
+hostname: https://www.perkfolioapp.com
+
 internal_hosts:
   - '/(^|\.)perkfolioapp\.com$/'
-process_assets: []
-default_variables:
-  '*':
-    css:
-      - assets/style.css
-required_variables:
-  '*':
-    - title
-  page:
-    - html
 
-ignore_files:
-  - .DS_Store
+vars:
+  defaults:
+    '*':
+      css:
+        - assets/style.css
+  required:
+    '*':
+      - title
+    page:
+      - html
+
+container:
+  image_name: perkfolio-website
