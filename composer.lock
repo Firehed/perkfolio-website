@@ -766,16 +766,16 @@
         },
         {
             "name": "snapauth/ssg",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:snapauthapp/ssg.git",
-                "reference": "1ca98fad519ba43326d9e38426bb61447f55b481"
+                "reference": "70d44f834e2a63e3c5d3d47a8b3a6eab603b29f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/snapauthapp/ssg/zipball/1ca98fad519ba43326d9e38426bb61447f55b481",
-                "reference": "1ca98fad519ba43326d9e38426bb61447f55b481",
+                "url": "https://api.github.com/repos/snapauthapp/ssg/zipball/70d44f834e2a63e3c5d3d47a8b3a6eab603b29f5",
+                "reference": "70d44f834e2a63e3c5d3d47a8b3a6eab603b29f5",
                 "shasum": ""
             },
             "require": {
@@ -811,10 +811,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/snapauthapp/ssg/tree/0.1.0",
+                "source": "https://github.com/snapauthapp/ssg/tree/0.1.1",
                 "issues": "https://github.com/snapauthapp/ssg/issues"
             },
-            "time": "2025-08-28T23:18:18+00:00"
+            "time": "2025-08-28T23:51:29+00:00"
         },
         {
             "name": "symfony/console",
