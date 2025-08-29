@@ -1,0 +1,23 @@
+container:
+  image_name: ghcr.io/firehed/perkfolio-website
+
+default_template: article
+
+directories:
+  passthrough: passthrough
+
+hostname: https://www.perkfolioapp.com
+
+internal_hosts:
+  - '/(^|\.)perkfolioapp\.com$/'
+
+vars:
+  defaults:
+    '*':
+      css:
+        - assets/style.css
+  required:
+    '*':
+      - title
+    page:
+      - html

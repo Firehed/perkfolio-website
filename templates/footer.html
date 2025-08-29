@@ -1,0 +1,31 @@
+<?php
+// vim: ft=php sw=2
+?>
+    <footer>
+      <div>
+        <img class="logo small" src="<?=assetUrl('assets/logo.png')?>" alt="" />
+        Perkfolio
+        <p>Simplifying travel booking.</p>
+      </div>
+
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="/support.html">Contact</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+          <li><a href="/terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <p>© <span id="year"></span> Perkfolio</p>
+    </footer>
+
+    <script>
+      // tiny progressive enhancement: current year. noscript leaves blank which is ~fine.
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script defer data-domain="perkfolioapp.com" src="https://plausible.io/js/script.outbound-links.js"></script>
+    <script src="https://api.snapauth.app/stats.js" data-key="pubkey_265e123688d7ac0b908ad5643a6f5e01b0179582" data-dedupe defer></script>
+  </body>
+</html>
