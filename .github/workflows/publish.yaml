@@ -6,9 +6,10 @@ on:
     branches:
       - main
 
-permissions:
-  contents: read
-  pages: write
+# permissions:
+#   contents: read
+#   id-token: write
+#   pages: write
 
 jobs:
   # Build job
@@ -48,6 +49,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      id-token: write
     runs-on: ubuntu-latest
     needs: build
     steps:
