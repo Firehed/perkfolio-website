@@ -10,6 +10,7 @@
   --white: #FFF;
 
   --3-col: 1fr 1fr 1fr;
+  --4-col: 1fr 1fr 1fr 1fr;
   --hero-bg: #cbe1f3;
   --screenshot-scale: scale(90%);
   --screenshot-margin: -7em;
@@ -20,6 +21,7 @@
 @media(max-width: 1024px) {
   :root {
     --3-col: 1fr;
+    --4-col: 1fr;
   /* --screenshot-scale: scale(50%); */
   --screenshot-width: 40vw;
   --screenshot-margin: -12vw;
@@ -228,8 +230,7 @@ body > main  > section {
 */
 body > footer {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  grid-template-columns: var(--3-col);
+  grid-template-columns: var(--4-col);
   gap: 1em;
   padding-block-start: 2em;
   padding-inline: 1em;
@@ -238,14 +239,23 @@ body > footer {
   }
 }
 
-/* for legal-type pages */
+/* for legal-type pages, blog posts, etc */
 article {
   margin: 0 auto;
   padding-inline: 1em;
   max-width: 40em;
+  a { color: var(--gray); text-decoration: underline; }
   h1 {
+    font-size: calc(var(--h1-size) * 0.75);
     margin-block: 0.5em;
-    }
+  }
+  h2 {
+    font-size: calc(var(--h2-size) * 0.75);
+  }
+  img {
+    /* seems ok-ish for screenshots */
+    max-height: 40em;
+  }
   ul {
     list-style-type: circle;
     margin-inline-start: 2em;
