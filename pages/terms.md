@@ -25,4 +25,4 @@ All Third-Party Marks are the property of their respective owners.
 We make a good-faith effort to adhere to brand guidelines when available.
 If you believe your mark is used improperly, please [contact us](/support).
 
-<footer>Last updated 2025-05-21</footer>
+<footer>Last updated 2025-09-04</footer>
