@@ -6,7 +6,8 @@ title: Terms of Service
 By using this app, you agree to the following terms:
 
 - This app helps you manage your personal travel-related data across your devices.
-- All features are unlocked with an active subscription. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.
+- All features are unlocked with an active subscription.
+  Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.
 - You are responsible for managing your subscription via your Apple ID settings.
 - The app does not collect or store personally identifiable information (PII).
   You may opt to store PII within the app to aid in travel booking; this data is not made available to the app's developers.
