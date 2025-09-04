@@ -19,27 +19,9 @@ The free plan is limited to 2 people.
 
 - Traveler names and birthdays
 - Frequent flyer numbers
+- Known traveler and redress numbers
 - Passport information (number, country of issue, expiration, legal name)
-
-### Does Perkfolio sync data across my devices?
-
-Yes, Perkfolio will automatically sync data across all of your devices, provided they are signed in to the same Apple Account.
-
-### Does Perkfolio sync to my family's devices?
-
-Perkfolio currently only syncs within a single Apple Account.
-We are exploring family syncing in a way that's still secure.
-
-### Does Perkfolio need internet access to work?
-
-Perkfolio is designed to work without a network connection.
-
-Syncing will be paused while you're offline and resume when your connection is restored.
-
-### Does Perkfolio need an iCloud/Apple Account to work?
-
-No, but it will not sync to your devices.
-
+- Hotel and rental car loyalty numbers
 
 ### Does Perkfolio know about airline alliances?
 
@@ -52,7 +34,7 @@ When viewing your booking details, Perkfolio will automatically match FFNs from 
 ### How does Perkfolio compare to a spreadsheet/shared note/etc?
 
 We created Perkfolio out of frustration with using a shared note to organize a couple dozen different loyalty programs!
-Between syncing issues and not working well on spotty connections while traveling, we knew we could do better.
+Between syncing issues, not working well on a small screen, and spotty connections causing problems while traveling, we knew we could do better.
 
 Compared to a spreadsheet, google doc, and everything else we tried, Perkfolio:
 
@@ -69,6 +51,25 @@ Give it a try and let us know what you think.
 
 Perkfolio helps organize and display all of your information relevant to booking travel, but doesn't actually book for you.
 Maybe one day!
+
+### Does Perkfolio sync data across my devices?
+
+Yes, Perkfolio will automatically sync data across all of your devices, provided they are signed in to the same Apple Account.
+
+### Does Perkfolio sync to my family's devices?
+
+Perkfolio currently only syncs within a single Apple Account.
+We are exploring family syncing in a way that's still secure.
+
+### Does Perkfolio need internet access to work?
+
+Perkfolio is designed to work without a network connection.
+
+Syncing will be paused while you're offline and resume when your connection is restored.
+
+### Does Perkfolio need iCloud to work?
+
+No, but it will not sync across your devices without it.
 
 ## Pricing
 ### Is Perkfolio free?
