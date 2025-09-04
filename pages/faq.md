@@ -54,7 +54,7 @@ When viewing your booking details, Perkfolio will automatically match FFNs from 
 We created Perkfolio out of frustration with using a shared note to organize a couple dozen different loyalty programs!
 Between syncing issues and not working well on spotty connections while traveling, we knew we could do better.
 
-Compared to a spreadsheet, google doc, and everything else we tried, Perfolio:
+Compared to a spreadsheet, google doc, and everything else we tried, Perkfolio:
 
 - Intelligently shows the information you care about when booking
 - Displays frequent flyer info for alliance partners
