@@ -58,11 +58,6 @@ a:hover {
   text-decoration: underline;
 }
 main p {
-  margin-inline: 1em;
-  /* needs more specificity */
-  /* color: var(--gray); */
-}
-p {
   line-height: 1.5em;
   margin-block: 1em;
 }
@@ -236,6 +231,7 @@ body > footer {
   padding-inline: 1em;
   li {
     color: var(--gray);
+    margin-block: 0.5em;
   }
 }
 
@@ -262,5 +258,12 @@ article {
   }
   li {
     margin-block-end: 1em;
+  }
+  footer {
+    font-size: smaller;
+    font-style: italic;
+  }
+  p:has(img) {
+      text-align: center;
   }
 }
