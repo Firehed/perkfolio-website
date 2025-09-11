@@ -15,4 +15,14 @@ These metrics **do not** include any personal information, identifiers, or devic
 
 No data is shared with third parties.
 
-<footer>Last updated 2025-05-15</footer>
+### Third Party Websites
+The app may contain links to other websites that are not operated by us.
+If you open a third party link, you will be directed to that party's website.
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+
+<footer>
+Last updated 2029-09-12, to clarify that third party websites are outside the scope of our policy.
+
+First published 2025-05-15.
+</footer>
