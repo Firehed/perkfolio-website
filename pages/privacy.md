@@ -23,5 +23,5 @@ We have no control over and assume no responsibility for the content, privacy po
 <footer>
 First published 2025-05-15.
 
-Last updated 2029-09-12, to clarify that third party websites are outside the scope of our policy.
+Last updated 2025-09-12, to clarify that third party websites are outside the scope of our policy.
 </footer>
